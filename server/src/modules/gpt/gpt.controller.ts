@@ -21,7 +21,7 @@ export const quizController = async (req: Request, res: Response) => {
         option3: "option3 with max length of 20 words",
         option4: "option4 with max length of 20 words",
         answer:
-          "correct option number. Option number of the option that is the answer",
+          "Correct option number. Option number of the option that is the answer",
       }
     );
     questions = [a];
@@ -30,10 +30,10 @@ export const quizController = async (req: Request, res: Response) => {
         question: q?.question,
         questionType: "text",
         answerSelectionType: "single",
-        answers: [q?.option1, q?.option2, q?.option3, q?.option4],
         correctAnswer: q?.answer,
         messageForCorrectAnswer: "Correct answer. Good job.",
-        messageForIncorrectAnswer: "Incorrect answer. Please try again.",
+        messageForIncorrectAnswer: "Incorrect answer.",
+        answers: [q?.option1, q?.option2, q?.option3, q?.option4],
         explanation: q?.explanation,
         point: "10",
       };
@@ -42,7 +42,6 @@ export const quizController = async (req: Request, res: Response) => {
       quiz: quiz,
     });
   } catch (error) {
-    console.error("elle gpt error", error);
     res.status(500).json({ error: "An unexpected error occurred." });
   }
 };
