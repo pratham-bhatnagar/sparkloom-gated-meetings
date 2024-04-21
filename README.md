@@ -27,7 +27,8 @@ Empowering Gated Communities on MorphL2 with
 - ZK based Proof of Coummunity and Attendance
 
 
-![Screenshot 2023-10-22 at 5 02 57 PM](https://github.com/lakshya-dhariwal/GeeksGather/assets/57823363/a396c9b3-d23a-41ba-b68d-90d002f837da)
+![Screenshot 2023-10-22 at 5 02 57 PM](/demo/2.png)
+![Screenshot 2023-10-22 at 5 02 57 PM](/demo/3.png)
 ![Screenshot 2023-10-22 at 5 03 16 PM](https://github.com/lakshya-dhariwal/GeeksGather/assets/57823363/4392e764-a560-43ce-91c7-aca9882ce71d)
 
 ### Future Goals
