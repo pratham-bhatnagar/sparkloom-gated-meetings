@@ -1,7 +1,7 @@
 import allowlistABI from "./ABI/allowlist.json";
 
 export const AllowListConfig = {
-  address: "0xf378e7cDd4e9e788C97714695d364038cbff64FD",
+  address: "0x39974b2f8e5ca69eeA26005AF01AbdE0a88c9bF1",
   abi: allowlistABI,
-  chainId: 3141,
+  chainId: 2710,
 };

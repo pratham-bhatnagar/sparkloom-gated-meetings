@@ -20,9 +20,9 @@ import {
 import AllowListABI from "../ABI/allowlist.json";
 
 const AllowListScrollConfig = {
-  address: "0x9de5ad847f0ce0313a027550bd1605991cc7f7a4",
+  address: "0x39974b2f8e5ca69eeA26005AF01AbdE0a88c9bF1",
   abi: AllowListABI,
-  chainId: 534351,
+  chainId: 2710, // morph testnet
 };
 
 function Event() {
