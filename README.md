@@ -1,6 +1,6 @@
-# Gated Meetups - Filter your attendees using ZK, AI generated quiz, guild or NFT
+# Gated Communities - Filter your community using ZK, AI generated quiz, guild or NFT
 
-Discover, host attend events with privacy.
+Communities with verified enthusiasts powered by ZK , AI and allow listing
 
 Built using Morphl2, ReactJs, Solidity, Circom and JavaScript.
 
@@ -18,7 +18,7 @@ Built using Morphl2, ReactJs, Solidity, Circom and JavaScript.
 
 ### Features
 
-Empowering Gated Meetups on MorphL2 with
+Empowering Gated Communities on MorphL2 with
 
 - Builder's check of github (using ZK proof)
 - ZK SBT gating and Allowlist using MorphL2
@@ -31,7 +31,5 @@ Empowering Gated Meetups on MorphL2 with
 ![Screenshot 2023-10-22 at 5 03 16 PM](https://github.com/lakshya-dhariwal/GeeksGather/assets/57823363/4392e764-a560-43ce-91c7-aca9882ce71d)
 
 ### Future Goals
-- Gated community chat rooms , example we can gate a builders chat room using github repos (ZK check) and AI genrated quiz
-- Decentralized drive for distributing event media
+- Enhance communioty features including spaces, voice chat, DM ,etc
 - Add additional gating , including expand ZK verification options
-- Event Calendar for User and Email features for hosts
