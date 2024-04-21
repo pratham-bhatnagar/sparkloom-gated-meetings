@@ -26,14 +26,14 @@ function Home() {
               <h1 className="headline-lg hero-title">
                 {" "}
                 <img
-                  src="logo-gg.png"
+                  src="logo-main.png"
                   alt=""
                   className=" = mx-auto sm:visible"
                 />{" "}
               </h1>
 
               <p className="section-text body-lg text-white">
-                Verified enthusiasts at meetups proven using ZK, AI and NFTs
+                Communities with verified members proven using ZK, AI and NFTs
               </p>
 
               <a href="#" className="btn">
@@ -51,7 +51,7 @@ function Home() {
                 className="headline-md section-title text-center"
                 id="discover-label"
               >
-                Discover Communities
+                Discover Meetups
               </h2>
               {!Events.length > 0 ? (
                 <div className="w-full h-[800px] flex items-center justify-center">
