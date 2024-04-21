@@ -38,7 +38,7 @@ app.get("/", (req, res) => {
 //GPT Routes
 // app.use("/api/gpt", GPTRoutes);
 
-// Twitter Verification
+// Github Verification
 app.get("/api/twitter/generate-call-data", async (req, res, next) => {
   try {
     console.log("Generating proof...");
