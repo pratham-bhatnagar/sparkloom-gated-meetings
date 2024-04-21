@@ -22,16 +22,16 @@ function Host() {
           </h1>
 
           <div className="grid grid-cols-3 my-5 mb-12 ">
-            <div className="p-2 text-gray-200 rounded-lg bg-slate-800 mx-2 px-4">
+            <div className="p-2 text-gray-200 rounded-lg border bg-slate-800 mx-2 px-4">
               ZK based eligiblity check
             </div>
-            <div className="p-2 text-gray-200 rounded-lg bg-slate-800 mx-2 px-4">
+            <div className="p-2 text-gray-200 rounded-lg border bg-slate-800 mx-2 px-4">
               {" "}
               NFT Gating and Allow Listing
             </div>
-            <div className="p-2 text-gray-200 rounded-lg bg-slate-800 mx-2 px-4">
+            <div className="p-2 text-gray-200 rounded-lg border bg-slate-800 mx-2 px-4">
               {" "}
-              Virtual event support using HuddleO1
+              AI based skill check
             </div>
           </div>
           <button

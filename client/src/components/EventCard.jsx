@@ -4,6 +4,7 @@ import { HiOutlineStatusOnline } from "react-icons/hi";
 import { MdAccessTimeFilled } from "react-icons/md";
 import { AiFillCalendar } from "react-icons/ai";
 import { motion } from "framer-motion";
+import { BsPeople } from "react-icons/bs";
 
 const EventCard = ({ event, buttonText, buttonOnClick }) => {
   return (
@@ -78,8 +79,8 @@ const EventCard = ({ event, buttonText, buttonOnClick }) => {
           </div>
         </div>
         <div className="flex items-center">
-          <HiOutlineStatusOnline className="text-green-300" />
-          <span className="mx-2">3 Online</span>
+          <BsPeople className="text-green-300" />
+          <span className="mx-2">3 Attendees</span>
         </div>
       </div>
       {buttonOnClick && (

@@ -3,7 +3,7 @@ import axios from "axios";
 import React, { useEffect } from "react";
 import { AiFillCheckCircle } from "react-icons/ai";
 import { BiLinkAlt } from "react-icons/bi";
-import { BsGithub } from "react-icons/bs";
+import { BsGithub, BsPeople } from "react-icons/bs";
 import { HiOutlineStatusOnline } from "react-icons/hi";
 import { MdQuiz } from "react-icons/md";
 import { useAccount } from "wagmi";
@@ -62,12 +62,13 @@ function Event() {
     return data;
   }
 
+  const checkGuild = async () => {
+    const response = await axios.get(
+      `https://api.guild.xyz/v1/guild/member/55482/${address}`
+    );
+    const data = await response.JSON();
+  };
 
-  const checkGuild = async()=>{
-    const response = await axios.get(`https://api.guild.xyz/v1/guild/member/55482/${address}`)
-    const data  =await response.JSON()
-  }
-  
   // const { data: isAdded } = useContractRead({
   //   ...AllowListScrollConfig,
   //   functionName: "isEligible",
@@ -101,7 +102,8 @@ function Event() {
   // console.log(txData, txSuccess, txError);
 
   const githubZk = async () => {
-    if (!auth) return await signInGithub();
+    // if (!auth) return await signInGithub();
+    await signInGithub();
     const user_name = auth.user.user_metadata.user_name;
     const { data } = await axios.get(
       `https://api.github.com/users/${user_name}/repos`
@@ -242,8 +244,8 @@ function Event() {
               </div>
             </div>
             <div className="flex items-center">
-              <HiOutlineStatusOnline className="text-green-300" />
-              <span className="mx-2">3 Online</span>
+              <BsPeople className="text-green-300" />
+              <span className="mx-2">3 Attendees</span>
             </div>
           </div>
           <div className="bg-[#0E1729]  mt-5 mx-auto p-4 w-[500px]    relative group rounded-xl  pt-3  border border-slate-800 ">
@@ -358,8 +360,6 @@ function Event() {
                     .update({ allowlist: [address, ...event.allowlist] })
                     .match({ id: params.id });
                   console.log({ data });
-              
-                  
 
                   //todo push notif add to allowlist
                   // const userAlice = await PushAPI.initialize(address, {
