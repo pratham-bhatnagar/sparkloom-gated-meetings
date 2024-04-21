@@ -26,18 +26,18 @@ function Home() {
               <h1 className="headline-lg hero-title">
                 {" "}
                 <img
-                  src="geeks-gather-large.png"
+                  src="logo-gg.png"
                   alt=""
                   className=" = mx-auto sm:visible"
                 />{" "}
               </h1>
 
               <p className="section-text body-lg text-white">
-                Gated Communities with verified enthusiasts
+                Verified enthusiasts at meetups proven using ZK, AI and NFTs
               </p>
 
               <a href="#" className="btn">
-                Show Communities
+                Show Meetups
               </a>
             </div>
           </section>
