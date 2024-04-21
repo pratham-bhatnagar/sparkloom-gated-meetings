@@ -40,7 +40,7 @@ function Nav({ connect }) {
           </ul>
         </nav>
 
-        <div className="header-action">
+        <div className="">
           <button className="btn-icon primary" aria-label="wallet">
             {connect}
           </button>
