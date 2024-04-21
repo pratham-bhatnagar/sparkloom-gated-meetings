@@ -44,24 +44,6 @@ function Nav({ connect }) {
           <button className="btn-icon primary" aria-label="wallet">
             {connect}
           </button>
-
-          <button
-            className="nav-toggle-btn"
-            aria-label="menu toggle"
-            data-nav-toggler
-          >
-            <ion-icon
-              name="menu-outline"
-              aria-hidden="true"
-              className="default-icon"
-            ></ion-icon>
-
-            <ion-icon
-              name="close-outline"
-              aria-hidden="true"
-              className="active-icon"
-            ></ion-icon>
-          </button>
         </div>
       </div>
     </header>
