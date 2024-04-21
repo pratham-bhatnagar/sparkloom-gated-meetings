@@ -1,9 +1,8 @@
-# GeeksGather - Gated community of proven geeks.
+# Gated Meetups - Filter your attendees using ZK, AI generated quiz, guild or NFT
 
-Chat, meet and collaborate with like minded tech enthusiasts.
+Discover, host attend events with privacy.
 
-Built using Morphl2, ReactJs and Solidity.
-
+Built using Morphl2, ReactJs, Solidity, Circom and JavaScript.
 
 
 
@@ -19,20 +18,20 @@ Built using Morphl2, ReactJs and Solidity.
 
 ### Features
 
-Gated communities with
+Empowering Gated Meetups on MorphL2 with
 
+- Builder's check of github (using ZK proof)
+- ZK SBT gating and Allowlist using MorphL2
 - Knowledge check using Dynamic Quiz using GPT and LangChain
 - Guild check and Token check
-- Builder's check of github (using ZK proof)
-- ZK SBT gating and Allowlist using Scroll
-- Realtime chat room using Push Protocol
-- ZK based Proof of Coummunity
+- ZK based Proof of Coummunity and Attendance
+
 
 ![Screenshot 2023-10-22 at 5 02 57 PM](https://github.com/lakshya-dhariwal/GeeksGather/assets/57823363/a396c9b3-d23a-41ba-b68d-90d002f837da)
 ![Screenshot 2023-10-22 at 5 03 16 PM](https://github.com/lakshya-dhariwal/GeeksGather/assets/57823363/4392e764-a560-43ce-91c7-aca9882ce71d)
 
 ### Future Goals
-
-- Community AI Chatbot trained on technical documentation to help community
-- More ZK based eligibility checks to promote user privacy
-- Multiple chat and video support in form of Channels
+- Gated community chat rooms , example we can gate a builders chat room using github repos (ZK check) and AI genrated quiz
+- Decentralized drive for distributing event media
+- Add additional gating , including expand ZK verification options
+- Event Calendar for User and Email features for hosts
